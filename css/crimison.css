@@ -1,0 +1,17 @@
+.mybtn1:hover,
+header{
+    background-color: #d70d25;
+}
+
+
+.mybtn2,
+.mybtn1,
+.home-section .title-text{
+    color: #d70d25;
+}
+
+
+
+.home-section .divider{
+    border: 2px solid #d70d25;
+}
