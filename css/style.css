@@ -116,3 +116,83 @@ header .navbar #navbarSupportedContent .nav-item .nav-link.active{
 .mybtn2:hover{
     background-color: #ffffff;
 }
+
+/* features-section */
+.features-section{
+    margin-top: -150px;
+}
+
+.features-section img{
+    border-radius: 20px;
+}
+.features-section .featured-img{
+    border: 1px solid #dddde3;
+    position: relative;
+    border-radius: 20px;
+}
+
+.features-section .featured-img .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+.features-section .featured-img:hover .overlay{
+    opacity: 1;
+}
+
+.features-section .featured-img .overlay .featured-overlay{
+    margin: auto;
+    text-align: center;
+}
+.featured-overlay h2{
+    font-size: 25px;
+    margin-right: 8px;
+}
+.featured-overlay i{
+    font-size: 20px;
+    margin-top: -6px;
+}
+
+.featured-overlay p{
+    font-size: 17px;
+    margin: 0;
+    padding: 4px 0px;
+}
+
+
+.owl-prev{
+    left: -30px;
+}
+.owl-next{
+    right: -30px;
+}
+
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 115px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-next:hover, 
+.owl-carousel .owl-nav button.owl-prev:hover{
+    opacity: .8;
+}
+
+.owl-carousel .owl-nav button.owl-next span, 
+.owl-carousel .owl-nav button.owl-prev span{
+    font-size: 50px;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
