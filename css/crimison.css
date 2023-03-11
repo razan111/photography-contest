@@ -1,4 +1,8 @@
+
+.popular-btn:hover,
+.popular-icon,
 .owl-carousel .owl-nav button.owl-next, 
+.discover-btn:hover,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next:hover, 
 .owl-carousel .owl-nav button.owl-prev:hover,
@@ -10,7 +14,7 @@ header{
 .featured-overlay,
 .mybtn2,
 .mybtn1,
-.home-section .title-text{
+.title-text{
     color: #d70d25;
 }
 
@@ -18,4 +22,10 @@ header{
 
 .home-section .divider{
     border: 2px solid #d70d25;
+}
+
+
+.discover-btn,
+.popular-btn{
+    outline: 1px solid #d70d25;
 }
