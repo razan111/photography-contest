@@ -1,3 +1,8 @@
+
+header .navbar-toggler-icon::after,
+header .navbar-toggler-icon::before,
+header .navbar-toggler-icon,
+.footer-section,
 .closed-btn:hover,
 .closed-photography-section::before,
 .popular-btn:hover,
@@ -12,6 +17,8 @@ header{
     background-color: #d70d25;
 }
 
+.navbar-nav .dropdown-menu .dropdown-item,
+.nav-button,
 .featured-overlay,
 .mybtn2,
 .mybtn1,
@@ -20,8 +27,17 @@ header{
 }
 
 
+@media(max-width: 500px) {
+    header .navbar #navbarSupportedContent .nav-item .nav-link {
+        color: #d70d25;
+    }
+   
+    
+}
+
+
 .plans-divider,
-.home-section .divider{
+.divider{
     border: 2px solid #d70d25;
 }
 

@@ -1,0 +1,99 @@
+.part-categories-section{
+    padding: 80px 0 80px;
+    background-image: url('/images/heading-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.part-categories-section p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 140px;
+}
+
+.divider{
+    margin: 40px 0;
+}
+
+
+/* categories-card-section */
+.categories-card-section{
+    padding: 80px 0 80px;
+    margin-top: -200px;
+}
+
+.hero-images{
+    background-color: aliceblue;
+    width: 60px;
+    padding: 15px;
+    border-radius: 7px;
+    margin: auto;
+}
+.card-number{
+   border: 1px solid aliceblue; 
+   width: 40%;
+   padding: 7px 0;
+   text-align: center;
+   box-shadow: -16px 19px 100px 20px rgba(0,0,0,0.1);
+   border-radius: 12px 0 12px 0;
+}
+
+/* featured-contests-section */
+.featured-contests-section{
+    padding: 20px 0 80px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box .dream1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 49.5%;
+}
+
+.box .dream2{
+    display: flex;
+    flex-direction: row;
+    width: 32.5%;
+}
+
+.box .dream1 img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.box .dream2 img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media (max-width: 991px) {
+    .box .dream1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .box .dream2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } 
+}
