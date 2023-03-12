@@ -237,11 +237,25 @@ header .navbar #navbarSupportedContent .nav-item .nav-link.active{
     align-content: end;
     justify-content: center;
 }
+.closed-button{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 30px;
+}
 
 .discover-btn{
     padding: 10px 50px;
 }
 .discover-btn:hover{
+    color: #ffffff;
+}
+
+.closed-btn{
+    padding: 10px 50px;
+}
+.closed-btn:hover{
     color: #ffffff;
 }
 
@@ -251,4 +265,81 @@ header .navbar #navbarSupportedContent .nav-item .nav-link.active{
 
 .popular-btn:hover{
     color: #ffffff;
+}
+
+
+/* closed-photography */
+.closed-photography-section{
+    padding: 80px 0 80px;
+    background-image: url('/images/closed-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.closed-photography-section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .14;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-closed{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.carousel-closed img{
+    border-radius: 20px 20px 0 0;
+}
+
+.closed-carousel{
+    padding: 20px;
+}
+
+.closed-carousel h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+.closed-carousel h6{
+    font-size: 20px;
+    font-weight: 600;
+}
+.closed-carousel p{
+    font-size: 16px;
+    color: #a0a0a0;
+}
+
+/* contest-plans-section */
+
+.contest-plans-section{
+    padding: 80px 0 80px;
+}
+
+.plans-image{
+    width: 75%;
+    margin: auto;
+}
+.plans-divider{
+    margin: 30px;
+}
+.plans-del{
+    color: #a0a0a0;
+}
+.plans-btn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+    .plans-image{
+        width: 50%;
+        margin: auto;
+    } 
 }

@@ -1,4 +1,5 @@
-
+.closed-btn:hover,
+.closed-photography-section::before,
 .popular-btn:hover,
 .popular-icon,
 .owl-carousel .owl-nav button.owl-next, 
@@ -19,12 +20,13 @@ header{
 }
 
 
-
+.plans-divider,
 .home-section .divider{
     border: 2px solid #d70d25;
 }
 
 
+.closed-btn,
 .discover-btn,
 .popular-btn{
     outline: 1px solid #d70d25;
