@@ -41,3 +41,45 @@
     display: flex;
     justify-content: center;
 }
+
+/* open-contest-section */
+.open-contest-section{
+    padding: 0 0 80px;
+    margin-top: -60px;
+}
+.first-card{
+    border-radius: 10px 10px 0 0;
+}
+.second-card{
+    border-radius: 0 0 10px 10px;
+}
+
+.single-contest-icon{
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+}
+.single-contest-icon i{
+    font-size: 30px;
+}
+.single-contest-content{
+    margin-top: 2px;
+}
+.single-contest-content h4{
+    margin: 0;
+}
+
+@media (max-width: 500px){
+    
+    .discover-btn{
+        padding: 4px 7px;
+    }
+    .contest-card-header p{
+        text-align: center;
+    }
+}
