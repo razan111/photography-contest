@@ -1,0 +1,144 @@
+.user-hero-section{
+    padding: 80px 0 80px;
+    background-image: url('/images/heading-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.user-hero-section h2{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 120px;
+}
+
+.user-hero-section p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 140px;
+}
+
+.divider{
+    margin: 40px 0;
+}
+.user-hero-section{
+    background-color: #ffffff;
+}
+
+.user-card{
+    margin-top: -90px;
+}
+.user-card .user-profile{
+    display: flex;
+    justify-content: center;
+}
+.user-card .user-profile img{
+    border-radius: 50%;
+}
+
+.user-card h3{
+    text-align: center;
+    margin: 32px 0;
+    font-weight: 600;
+}
+
+.user-card .card{
+    text-align: center;
+}
+
+.user-card .card h5{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.user-card .card .card-text{
+color: #dddde3;
+}
+
+
+/* user-gallery-section */
+.user-gallery-section{
+    padding: 80px 0 80px;
+    background-color: #dddde3;
+}
+
+.user-gallery-section .box{
+    display: flex;
+    flex-direction: column;
+}
+.user-gallery-section .box .dream1{
+    display: flex;
+    justify-content: space-between;
+    width: 32.5%;
+}
+
+.user-gallery-section .box .dream1 .images{
+    width: 123%;
+}
+
+.user-gallery-section .box .dream1 img{
+    width: 100%;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.user-gallery{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 991px) {
+    .user-gallery-section .box{
+        flex-direction: column;
+    }
+    .user-gallery-section .box .dream1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .user-gallery-section .box .dream1 img{
+        margin: 15px 0;
+    }
+    .user-gallery-section .box .dream1 .images{
+        width: 100%;
+    }
+    .user-gallery{
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+/* user-contact-section */
+.user-contact-section{
+    padding: 80px 0 80px;
+}
+
+.user-contact-section .contact-card{
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon{
+    width: 70px;
+    height: 70px;
+    background-color: #dddde3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.contact-icon i{
+    font-size: 30px;
+}
+
+/* user-communication-section */
+.user-communication-section{
+    padding: 0px 0 80px;
+}

@@ -35,11 +35,15 @@ header{
     
 }
 
-
+.user-card .user-profile img,
 .plans-divider,
 .divider{
     border: 2px solid #d70d25;
 }
+
+/* .user-card .user-profile img{
+    border: 2px solid #d70d25;
+} */
 
 
 .closed-btn,
